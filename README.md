@@ -1,8 +1,8 @@
 # flinv
 
-Inventory API compatibility layer (this is not a standalone inventory mod). Uses
-[flow](https://content.minetest.net/packages/luk3yx/flow/) to render forms and
-expands them to fit into the space provided by whatever inventory mod is in use.
+Inventory API compatibility layer (this is not a standalone inventory mod). Mods
+can use [flow](https://content.minetest.net/packages/luk3yx/flow/) and flinv to
+create tabs that work with many inventory mods without any mod-specific code.
 
 ## Supported inventory mods/games (alphabetical order)
 

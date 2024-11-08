@@ -58,7 +58,7 @@ function flinv.register_tab(name, def)
             return {
                 formspec = fs,
                 draw_inventory = show_inv,
-                draw_item_list = show_inv or perplayer_formspec.is_lite_mode,
+                draw_item_list = show_inv or perplayer_formspec.is_lite_mode or false,
             }
         end,
     })
