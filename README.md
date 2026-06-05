@@ -88,3 +88,8 @@ Both `title` and `icon` should be specified for maximum compatibility.
 
 The tab will automatically be expanded to fit in whatever inventory mod is
 being used.
+
+## Inventory mods
+
+You can see the name of the inventory mod in use with `flinv.inventory_mod`,
+for example if you want to avoid registering your tab with some inventory mods.

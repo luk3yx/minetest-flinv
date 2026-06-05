@@ -133,6 +133,7 @@ for _, mod in ipairs({"sway", "i3", "unified_inventory", "smart_inventory",
         "player_style", "nc_player_gui"}) do
     if minetest.get_modpath(mod) or (mod == "mcl_inventory" and
             minetest.get_modpath("vlf_inventory")) then
+        flinv.inventory_mod = mod
         dofile(minetest.get_modpath("flinv") .. "/" .. mod .. ".lua")
         break
     end
